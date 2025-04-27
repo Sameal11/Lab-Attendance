@@ -1,0 +1,25 @@
+.bg-body-tertiary{
+    background-color: rgb(80, 159, 228)!important; 
+    height: 80px!important;
+  }
+  .navbar-brand{
+    font-size: 1.5rem;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+  }
+  
+  .nav-link.active {
+    color: white;
+    background-color: #007BFF; /* Highlight color */
+    border-radius: 5px;
+  }
+
+  .container-fluid{
+    position: center;
+
+  }
+  
