@@ -76,12 +76,26 @@
     <!--nav finish-->
     <div class="container-fluid">
       <div class="main-content">
-        <h3>studentList</h3>
+        <h3>student List</h3>
+        <hr>
         <form id="sectionForm">
-          <input type="text" id="section" placeholder="Enter Section (e.g., U2)" required />
-          <button type="submit">Get Students</button>
+          <h5>Enter your Class/Section</h5>
+          <input style="border-width: 5px;border-radius: 25px" type="text" id="section" placeholder="Enter Section (e.g., U2)" required />
+          <button style="border-width: 5pxS;border-radius: 25px; background-color: aqua;" type="submit">Get Students</button>
         </form>
         <ul id="studentList"></ul>
+        <table id="studentTable" class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Reg ID</th>
+              <th scope="col">Name</th>
+              <th scope="col">Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- JS will inject <tr> rows here -->
+          </tbody>
+        </table>
       </div>
 
   

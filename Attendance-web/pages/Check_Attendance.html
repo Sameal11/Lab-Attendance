@@ -77,7 +77,63 @@
             </nav>
         </div>
         <!--nav finish-->
+<!--main content -->
+        <div>
+            <div class="main-content">
+                <h3>Check Attendance</h3>
+                <hr>
+              
+                <!-- single form with two inputs -->
+                <form id="attendanceForm" class="row g-3 mb-4">
+                  <div class="col-md-6">
+                    <label for="attendanceDate" class="form-label">Enter the date</label>
+                    <input
+                      type="date"
+                      id="attendanceDate"
+                      class="form-control"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <label for="attendanceSection" class="form-label">Enter the section</label>
+                    <input
+                      type="text"
+                      id="attendanceSection"
+                      class="form-control"
+                      placeholder="e.g. U2"
+                      required
+                    />
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Get Students</button>
+                  </div>
+                </form>
+              
+                <table id="studentTable" class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th>Reg ID</th>
+                        <th>Name</th>
+                        <th>Scan</th>
+                        <th>RFID</th>
+                        <th>Computer verify</th>
+                        <th>In-time</th>
+                        <th>Out-time</th>
+                        <th>Duration</th>
+                        <th>Subject</th>
+                        <th>Activity Log</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <!-- rows injected here -->
+                    </tbody>
+                  </table>
+                  
+              </div>
+              
+        </div>
     </div>
     <script src="/js/home.js"></script>
+    <script src="/js/check_attendance.js"></script>
 </body>
 </html>
