@@ -2,6 +2,9 @@
 
 A full-stack Python-based system that automates lab attendance and monitors student computer activity in real time. The system includes a startup-triggered desktop application for student login and background tracking, along with a faculty-facing web portal to manage attendance records and monitor usage.
 
+![Desktop Client Screenshot](Design.png)
+
+
 ## 🚀 Features
 
 ### 🖥️ Desktop Client (Python)
